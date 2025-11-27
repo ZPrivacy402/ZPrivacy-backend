@@ -2,8 +2,6 @@
 
 backend for privacy-preserving payment intent evaluation. This project provides a realistic developer-facing skeleton that demonstrates the ZPrivacy402 risk evaluation flow.
 
-> ⚠️ **DISCLAIMER**: This repo is a mock/demo. Do not use in production without adding proper cryptography and removing mock placeholders.
-
 ## Features
 
 - **Intent Normalization**: Clean and standardize incoming payment intents

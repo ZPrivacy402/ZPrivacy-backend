@@ -1,0 +1,9 @@
+node_modules
+.env
+.env.local
+.replit
+.vscode
+coverage
+*.log
+dist
+.DS_Store

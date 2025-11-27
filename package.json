@@ -1,0 +1,29 @@
+{
+  "name": "zprivacy402-backend-mock",
+  "version": "0.1.0",
+  "description": "Mock backend for ZPrivacy402 - Privacy-preserving payment intent evaluation",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "cli": "node src/cli/run-eval.js mock/intentA.json",
+    "test": "node test/test_evaluator.js",
+    "seed": "node scripts/seed_mock_data.js"
+  },
+  "keywords": [
+    "privacy",
+    "payment",
+    "x402",
+    "risk-engine",
+    "mock"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
